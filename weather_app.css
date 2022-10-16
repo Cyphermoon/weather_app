@@ -1,0 +1,145 @@
+*,
+*::after,
+*::before{
+    box-sizing:border-box;
+}
+
+body{
+    font-size: 1.1rem;
+    line-height: 1.6em;
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0,0,0,.95);
+    background-color: #eee;
+}
+
+h1,
+h2,
+h3,
+p{
+    padding:0;
+    margin:0;
+}
+
+strong{
+    margin:0;
+    padding:0;
+    display:block;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+button{
+    font-size:1.3rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding:.3em .55em;
+    border-radius: 5px;
+}
+
+.weather_icon{
+    width: 90px;
+    filter: brightness(100%), contrast(100%);
+}
+
+.hidden{
+    display: none;
+}
+
+.container{
+    width:85%;
+    margin:0 auto;
+}
+
+
+
+.instance{
+    background: linear-gradient(0deg, rgba(25, 39, 64, 0.2), rgba(25, 39, 64, 0.2)), linear-gradient(124.96deg, #3353C6 29.42%, rgba(51, 83, 198, 0) 104.95%);
+    backdrop-filter: blur(20px);
+    border-radius: 37px;
+    width: 400px;   
+    padding:.5em; 
+    color:white;
+    margin:0 auto;
+    margin-bottom: 2.5rem;
+}
+.spacing  > * + *  {
+    margin-top:1.5em;
+}
+
+ul{
+    list-style: none;
+    padding:0;
+}
+
+/**********
+Typography
+*********/
+
+.main_header{
+    text-align: center;
+    margin-bottom:2em;
+}
+
+.user_input_form{
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.user_input_form input{
+    padding: .3em;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    outline:none;
+    width: 100%;
+    max-width: 450px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: rgba(0,0,0,.75);
+    margin-bottom: 1.75rem;
+}
+
+.instance_state{
+    font-size:2rem;
+    font-weight:500;
+}
+
+.instance_time{
+    font-weight: 200;
+    font-size: .9rem;
+}
+
+.weather_details > li{
+    font-size:.8rem;
+    font-weight: 500;
+    margin-bottom: .2em;
+    line-height: 1.4;
+}
+
+.temp_value{
+    font-size:1.85rem;
+    display: inline-block;
+}
+
+.weather_icon_description{
+    margin-top: -.85em;
+}
+
+/*********
+Layout
+********/
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/weather_app.css">
+    <title>Weather app</title>
+</head>
+<body>
+    <main>
+        <article>
+            <div class="container" id="main_container">
+                <h2 class="main_header">Weather app</h2>
+                <section class="instance">
+                    <div class="container spacing">
+                        <div class="row1 row">
+                            <div class="state_container">
+                                <p class="instance_time">22:00</p>
+                                <h3 class="instance_state">Lagos</h3>
+                            </div>
+
+                            <div class="icon_container">
+                                <img src="images/sleet-xxl.png" alt="wearther_icon" class="weather_icon">
+                                <strong class="weather_icon_description">few clouds</strong>
+                            </div>
+                        </div>
+
+                        <div class="row2 row">
+                            <ul class="weather_details">
+                                <li>Humidity:<span>87%</span></li>
+                                <li>pressure:<span>4%</span></li>
+                                <li>Wind:<span>13km/h</span></li>
+                            </ul>
+
+                            <div class="temperature">
+                                <p class="temp_value">25</p> <sup class="temp_unit">c</sup>
+                            </div>
+                    </div>
+                    </div>
+                </section>
+                <form class="user_input_form">
+                    <input type="text" class="user_input" placeholder="Enter your country...." />
+                    <!-- <input type="submit" value="enter your country"> -->
+                </form>
+                <section class="instance api_country hidden">
+
+                </section>
+                
+        </div>
+        </article>
+    </main>
+    <script src="/weather_app.js"></script>
+</body>
+</html>
