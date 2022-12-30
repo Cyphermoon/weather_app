@@ -12,6 +12,8 @@ This is app display weather information about a particular geographical area. it
 - API
 - Javascript
 
+## How to use
+Go to [https://cors-anywhere.herokuapp.com/](https://cors-anywhere.herokuapp.com/) and click on the **request temporary access to demo server**. Then you can run the `index.html`
 
 
 
